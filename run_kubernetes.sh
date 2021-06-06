@@ -9,7 +9,6 @@ dockerpath=akshtrikha/python-predictor
 # Step 2
 # Run the Docker Hub container with kubernetes
 kubectl run --image=$dockerpath:predictor predictor-app --port=80
-# --generator flag is added to ensure expected behaviour
 
 # Step 3:
 # List kubernetes pods
