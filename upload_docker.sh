@@ -6,14 +6,15 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=akshtrikha/predictor
+dockerpath=akshtrikha/python-predictor
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
+docker tag predictor:latest $dockerpath:predictor
 
 
 # Step 3:
 # Push image to a docker repository
-docker login
-docker push latest:predictor
+docker push $dockerpath:predictor
