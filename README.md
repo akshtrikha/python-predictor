@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![akshtrikha](https://circleci.com/gh/akshtrikha/python-predictor.svg?style=svg)](https://app.circleci.com/pipelines/github/akshtrikha/python-predictor?branch=main)
 
 ## Project Overview
 
